@@ -1,0 +1,146 @@
+body {
+  height: 100%;
+  background: linear-gradient(to right, rgba(237,17,74), rgba(224, 97, 65));
+  
+}
+
+.main{
+  text-align: left;
+  padding-left: 10px;
+}
+.scrollbar{
+  overflow: auto; 
+  height: 100px;
+}
+
+.box{
+  margin: auto;
+  margin-top: 150px;
+    width: 17%;
+    background-color: #dedad9;
+    padding: 10px;
+    border-radius: 5px;
+    height: 400px;
+}
+
+input{
+  background-color: white;
+  border-radius: 2px;
+  border: none;
+}
+
+.inputText{
+  height: 20px;
+}
+.btn{
+  background-color: gray;
+  /* margin-left: 20px; */
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  display: none;
+  /* margin-left: 100px; */
+  /* position: absolute; */
+  /* left: 640px; */
+  background-color: white;
+  float: right;
+  
+}
+.fixbutton{
+  width: 240px;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.setbtnrigth{
+  margin-left: auto;
+}
+
+.bg:hover .btn{
+  display: block;
+  right: 658px;
+  animation: fade_in_show 1.0s;
+  width: 25px;
+
+}
+@keyframes fade_in_show {
+  0% {
+       opacity: 0;
+       transform: scale(0)
+  }
+
+  100% {
+       opacity: 1;
+       transform: scale(1)
+  }
+}
+.btn1{
+  background-color: gray;
+    margin-left:10px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.del{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.abc{
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #dedad9;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.date{
+    background-color: #dedad9;
+    color: #f52559; 
+}
+.bg{
+  background-color: gray;
+  /* display: "flex"; */
+  font-size: 12px;
+  margin-bottom: 2px;
+  border-radius: 2px;
+}
+.item{
+  padding: 0;
+}
+
+.up{
+  margin-top: 10px;
+}
+.chill{
+  font-size: 12px;
+}
+
+.img{
+  height: 13px;
+  width: 12px;
+  color: white;
+}
+
+.line{
+  display: flex;
+    position: fixed;
+      bottom: 150px;
+      right: 700px;
+      /* top: 20px; */
+}
+.todoimg{
+  width: 40px;
+  height: 40px;
+  /* border-radius: 30%; */
+}
+
+.center{
+  margin-top: 20px;
+  text-align: center;
+}
